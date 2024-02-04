@@ -50,5 +50,5 @@ app.get('/msg', (req, res) => {
 });
 
 server.listen(PORT, () => {
-    console.log(`Server started at ${PORT}`);
+    console.log(`http://localhost:${PORT}`);
 })
